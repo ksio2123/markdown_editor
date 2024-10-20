@@ -47,7 +47,7 @@ And here. | Okay. | I think we get it.
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
 
-![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+![Password Meme](https://i.pinimg.com/originals/01/90/92/019092434d9bfc15c1ada275dd8cdc39.gif)
 `
 
 export function MarkdownPreviewer() {
@@ -71,7 +71,7 @@ export function MarkdownPreviewer() {
           <div 
             id="preview" 
             className="w-full h-[calc(100vh-200px)] p-4 border rounded overflow-auto bg-white"
-            dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(marked(markdown, {async: false}))}}
+            dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(marked(markdown, {async: false, breaks: true}))}}
           >
           </div>
         </div>
