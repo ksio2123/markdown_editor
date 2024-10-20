@@ -2,6 +2,8 @@
 
 This project is a Markdown Editor built using Next.js. It allows users to input Markdown text in an editor, preview the rendered Markdown content, and supports features like bold text, italic text, code blocks, links, block quotes, lists, and embedded images.
 
+![Program Example](https://raw.githubusercontent.com/ksio2123/markdown_editor/refs/heads/main/doc/markdown_editor.gif)
+
 ## Tech Stack
 - **Next.js**: Next.js is used as the framework for building the project.
 - **React**: React is used for building the user interface components.
